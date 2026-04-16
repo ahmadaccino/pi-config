@@ -3,14 +3,6 @@
   "version": "1.0.0",
   "description": "Personal pi coding agent configuration",
   "keywords": ["pi-package"],
-  "pi": {
-    "mcpServers": {
-      "figma": {
-        "command": "npx",
-        "args": ["-y", "@anthropic-ai/mcp-server-figma"]
-      }
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ahmadaccino/pi-config.git"
