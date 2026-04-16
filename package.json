@@ -1,11 +1,9 @@
 {
   "name": "pi-config",
   "version": "1.0.0",
-  "description": "Personal pi coding agent configuration - skills, settings, and MCP servers",
+  "description": "Personal pi coding agent configuration",
   "keywords": ["pi-package"],
   "pi": {
-    "skills": ["./skills"],
-    "prompts": ["./prompts"],
     "mcpServers": {
       "figma": {
         "command": "npx",
