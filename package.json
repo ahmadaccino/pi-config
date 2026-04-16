@@ -1,0 +1,21 @@
+{
+  "name": "pi-config",
+  "version": "1.0.0",
+  "description": "Personal pi coding agent configuration - skills, settings, and MCP servers",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": ["./skills"],
+    "prompts": ["./prompts"],
+    "mcpServers": {
+      "figma": {
+        "command": "npx",
+        "args": ["-y", "@anthropic-ai/mcp-server-figma"]
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadaccino/pi-config.git"
+  },
+  "license": "MIT"
+}
